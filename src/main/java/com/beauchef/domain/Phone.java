@@ -1,17 +1,13 @@
 package com.beauchef.domain;
 
-import lombok.Builder;
+import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
 import lombok.NonNull;
-import lombok.ToString;
 
 /**
  * @author jbeauchef
  */
-@Builder
-@Getter
-@ToString
+@Data
 @EqualsAndHashCode(of = {"number"})
 public class Phone {
 
