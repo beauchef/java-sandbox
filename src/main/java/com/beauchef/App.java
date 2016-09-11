@@ -2,8 +2,8 @@ package com.beauchef;
 
 import com.beauchef.domain.Phone;
 import com.beauchef.domain.User;
+
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
